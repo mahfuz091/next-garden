@@ -32,7 +32,7 @@ li {
   align-items: center;
   color: var(--p-5, #fff);
   font-feature-settings: "clig" off, "liga" off;
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -51,7 +51,7 @@ li {
   color: var(--p-4, #fff);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -62,7 +62,7 @@ li {
 .topbar p a {
   color: var(--p-4, #fff);
   font-feature-settings: "clig" off, "liga" off;
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -93,7 +93,7 @@ li {
 .menu-items a {
   color: var(--black-color-200, #424c4a);
   text-align: center;
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -143,6 +143,12 @@ li {
   width: 1px;
   height: 30px;
   background: var(--secondary-color-secondary-4, #ededf6);
+}
+
+.line-2 {
+
+  height: 1px;
+  background: #343434;
 }
 
 /* feature */
@@ -205,7 +211,7 @@ li {
 
 .growing-desc {
   color: #fff;
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -259,6 +265,7 @@ li {
 .card4 {
   border: 13px solid #39b54a;
 }
+
 .growing-indoor {
   padding: 100px;
   padding-right: 224px;
@@ -271,22 +278,26 @@ li {
   background: #202622;
   margin-top: 82px;
 }
+
 .growing-indoor h2 {
   color: #fff;
   font-family: DM Serif Text;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  line-height: 42px; /* 116.667% */
+  line-height: 42px;
+  /* 116.667% */
   margin-bottom: 30px;
 }
+
 .growing-indoor p {
   color: var(--p-5, #fff);
-  font-family: Plus Jakarta Sans;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
+  /* 177.778% */
   opacity: 0.8;
   width: 543px;
   margin-bottom: 12px;
@@ -295,11 +306,224 @@ li {
 .growing-indoor .primary-btn {
   margin-top: 30px;
 }
+
 .growing-indoor-img {
   position: relative;
 }
+
 .growing-indoor-img2 {
   position: absolute;
   left: 221px;
   top: 131px;
+}
+
+/* Nutrition */
+.nutrition {
+  background: #202622;
+}
+
+.nutrition .page-wrapper {
+  padding-top: 80px;
+  padding-bottom: 187px;
+}
+
+.nutrition .nutrition-content {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 170px;
+}
+
+.nutrition-title {
+  color: var(--p-5, #FFF);
+  text-align: left;
+  font-family: DM Serif Text;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+
+
+}
+
+
+.nutrition-desc {
+  width: 543px;
+  color: var(--p-5, #FFF);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+
+  opacity: 0.8;
+}
+
+.nutrition .primary-btn {
+  margin-top: 40px;
+
+}
+
+.nutrition-img {
+  position: relative;
+
+}
+
+.nutrition-img-2 {
+  position: absolute;
+  left: 281px;
+  top: 167px;
+}
+
+/* News Letter */
+.newsletter {
+  background: #202622;
+
+}
+
+.newsletter .page-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1B3F34;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.newsletter h2 {
+  color: var(--p-4, #FFF);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Serif Text;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.newsletter p {
+  color: var(--p-5, #FFF);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: '' Plus Jakarta Sans', sans-serif', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+
+  opacity: .8;
+  width: 522px;
+}
+
+.input-email {
+  width: 477px;
+  padding: 26px 158px;
+  border-radius: 1000px;
+  background: var(--p-4, #FFF);
+  margin-bottom: 20px;
+}
+
+.input-email:focus {
+  outline: none;
+}
+
+.subscribe-btn {
+  width: 477px;
+  padding: 24px 168px;
+}
+
+.footer {
+  background: #202622;
+
+}
+
+.footer .footer-top {
+  padding-top: 90px;
+  padding-bottom: 109px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 125px;
+}
+
+
+.footer-logo-area img {
+  margin-bottom: 30px;
+}
+
+.footer-logo-area p {
+  color: var(--gary-base, #B4B4B4);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+  width: 315px;
+}
+
+.footer h2 {
+  color: var(--neutral-pure-white, #FFF);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  /* 90% */
+  margin-bottom: 26px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer ul li a {
+  color: var(--gary-base, #B4B4B4);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 34px;
+}
+
+.copyright p {
+  color: var(--gary-base, #B4B4B4);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 2000px;
+  background: #343D37;
 }
