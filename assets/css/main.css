@@ -377,6 +377,67 @@ li {
   top: 167px;
 }
 
+
+/* how works */
+.how-works {
+  background: var(--p-4, #1D211E);
+  padding: 130px 80px;
+}
+
+.how-works h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: DM Serif Text;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  /* 116.667% */
+  margin-bottom: 21px;
+}
+
+.how-works p {
+  width: 682px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+}
+
+.works {
+  margin-top: 89px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works-card {
+  position: relative;
+}
+
+.middle-img {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+}
+
+.number {
+  position: absolute;
+  left: 177px;
+  top: 11px;
+}
+
+.arrow {
+  position: absolute;
+  right: -1px;
+  top: 109px;
+}
+
 /* News Letter */
 .newsletter {
   background: #202622;
@@ -422,6 +483,7 @@ li {
   border-radius: 1000px;
   background: var(--p-4, #FFF);
   margin-bottom: 20px;
+  border: none;
 }
 
 .input-email:focus {
