@@ -21,6 +21,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
@@ -134,20 +136,32 @@
           </svg>
         </button>
       </div>
-      <div class="growing-card-group">
-        <div class="growing-card card1">
-          <p>Growing Indoors</p>
+      <!-- <div class="growing-card-group " id="myTab" role="tablist">
+        <div class="" role="presentation">
+          <div class="growing-card" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+            aria-controls="home" aria-selected="true">
+            <span>Growing Indoors</span>
+          </div>
         </div>
-        <div class="growing-card card2">
-          <p>No Pesticides or GMOs</p>
+        <div class="" role="presentation">
+          <div class="growing-card " id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">
+            <span>No Pesticides or GMOs</span>
+          </div>
         </div>
-        <div class="growing-card card3">
-          <p>More Nutritious</p>
+        <div class="growing-card ">
+          <span>More Nutritious</span>
         </div>
-        <div class="growing-card card4">
-          <p>Responsible Growing</p>
+        <div class="growing-card">
+          <span>Responsible Growing</span>
         </div>
       </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home</div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Profile</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      </div>
+
       <div class="growing-indoor">
         <div>
           <h2>Growing Indoors</h2>
@@ -175,6 +189,120 @@
           <img src="assets/images/growing-1.png" alt="" />
           <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
         </div>
+      </div> -->
+      <ul class="nav growing-card-group nav-pills " id="pills-tab" role="tablist">
+        <li class="tab-card" role="presentation">
+          <button class="growing-card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <span>Growing
+              Indoors</span></button>
+        </li>
+        <li class="tab-card" role="presentation">
+          <button class="growing-card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span>No Pesticides or
+              GMOs</span></button>
+        </li>
+        <li class="tab-card" role="presentation">
+          <button class="growing-card" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>More
+              Nutritious</span></button>
+        </li>
+        <li class="tab-card" role="presentation">
+          <button class="growing-card" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>Responsible
+              Growing</span></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors2</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors3</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>/div>
+        </div>
       </div>
     </div>
   </section>
@@ -183,15 +311,18 @@
       <div class="nutrition-content">
         <div>
           <h2 class="nutrition-title">The Nutrition</h2>
-          <p class="nutrition-desc">Nutrition is a critical part of health and development. Better nutrition is related
-            to
-            improved infant, child
-            and maternal health, stronger immune systems, safer pregnancy and childbirth, lower risk of non-communicable
-            diseases (such as diabetes and cardiovascular disease), and longevity.</p>
-          <p class="nutrition-desc">Healthy children learn better. People with adequate nutrition are more productive
-            and
-            can create
-            opportunities to gradually break the cycles of poverty and hunger.</p>
+          <p class="nutrition-desc">
+            Nutrition is a critical part of health and development. Better
+            nutrition is related to improved infant, child and maternal
+            health, stronger immune systems, safer pregnancy and childbirth,
+            lower risk of non-communicable diseases (such as diabetes and
+            cardiovascular disease), and longevity.
+          </p>
+          <p class="nutrition-desc">
+            Healthy children learn better. People with adequate nutrition are
+            more productive and can create opportunities to gradually break
+            the cycles of poverty and hunger.
+          </p>
           <button class="primary-btn">
             Learn More
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
@@ -201,76 +332,359 @@
           </button>
         </div>
         <div class="nutrition-img">
-          <img src="assets/images/nutrition-1.png" alt="">
-          <img class="nutrition-img-2" src="assets/images/nutrition-2.png" alt="">
+          <img src="assets/images/nutrition-1.png" alt="" />
+          <img class="nutrition-img-2" src="assets/images/nutrition-2.png" alt="" />
         </div>
       </div>
     </div>
   </section>
+  <section class="discover">
+    <div class="page-wrapper">
+      <div class="row">
+        <div class="col-12 col-lg-6 discover-left">
+          <img src="assets/images/discover-ellipse.png" alt="">
+          <img class="discover-img-2" src="assets/images/blue-yellow.png" alt="">
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2 class="discover-title">Discover the features of your new indoor garden.</h2>
+          <div class="discover-content">
+            <div class="discover-content-card">
+              <img src="assets/images/discover-1.png" alt="">
+              <div class="card-content">
+                <h4>Circulation</h4>
+                <p>A constant flow of nutrients is delivered 24/7 to plant roots for fast and strong growth.</p>
+              </div>
+
+            </div>
+            <div class="discover-content-card">
+              <img src="assets/images/discover-2.png" alt="">
+              <div class="card-content">
+                <h4>Water Indicator</h4>
+                <p>Visual window display real-time water level information so you know it's time to refill.</p>
+              </div>
+
+            </div>
+            <div class="discover-content-card">
+              <img src="assets/images/discover-3.png" alt="">
+              <div class="card-content">
+                <h4>Lights</h4>
+                <p>Automated LED grow light that mimics our natural sunlight to promote plant photosynthesis and healthy
+                  growth.</p>
+              </div>
+
+            </div>
+            <div class="discover-content-card">
+              <img src="assets/images/discover-4.png" alt="">
+              <div class="card-content">
+                <h4>Simple to Grow</h4>
+                <p>Removable grow trays for easy monitoring, cleaning and nutrient solution top up.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- <div class="section tab">
+    <div class="page-wrapper">
+      <ul class="nav growing-card-group nav-pills " id="pills-tab" role="tablist">
+        <li class="" role="presentation">
+          <button class="growing-card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <span>Growing
+              Indoors</span></button>
+        </li>
+        <li class="" role="presentation">
+          <button class="growing-card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span>No Pesticides or
+              GMOs</span></button>
+        </li>
+        <li class="" role="presentation">
+          <button class="growing-card" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>More
+              Nutritious</span></button>
+        </li>
+        <li class="" role="presentation">
+          <button class="growing-card" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>Responsible
+              Growing</span></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors2</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="growing-indoor">
+            <div>
+              <h2>Growing Indoors3</h2>
+              <p>
+                Nutrition is a critical part of health and development. Better
+                nutrition is related to improved infant, child and maternal
+                health, stronger immune systems, safer pregnancy and childbirth,
+                lower risk of non-communicable diseases (such as diabetes and
+                cardiovascular disease), and longevity.
+              </p>
+              <p>
+                Healthy children learn better. People with adequate nutrition are
+                more productive and can create opportunities to gradually break
+                the cycles of poverty and hunger.
+              </p>
+              <button class="primary-btn">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                  <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="growing-indoor-img">
+              <img src="assets/images/growing-1.png" alt="" />
+              <img class="growing-indoor-img2" src="assets/images/growing-2.png" alt="" />
+            </div>
+          </div>/div>
+        </div>
+      </div>
+    </div> -->
   <section class="how-works">
     <div class="page-wrapper">
       <h2>How Nexus works</h2>
-      <p>Get more frequent harvests with our horizontal watering system, uniquely designed to keep plant roots bathed in
-        more water for faster growth.</p>
+      <p>
+        Get more frequent harvests with our horizontal watering system,
+        uniquely designed to keep plant roots bathed in more water for faster
+        growth.
+      </p>
     </div>
     <div class="works">
-      <div>
-        <img src="assets/images/Group 1413372683.png" alt="">
+      <div class="works-card">
+        <img src="assets/images/Group 1413372683.png" alt="" />
+        <span>Assembly</span>
       </div>
       <div class="works-card">
-        <img class="outline" src="assets//images/outline.png" alt="">
-        <img class="middle-img" src="assets/images/middle-2.png" alt="">
-        <img class="number" src="assets/images/number-2.png" alt="">
-        <img class="arrow" src="assets/images/arrow.png" alt="">
+        <img class="outline" src="assets//images/outline.png" alt="" />
+        <img class="middle-img" src="assets/images/middle-2.png" alt="" />
+        <img class="number" src="assets/images/number-2.png" alt="" />
+        <img class="arrow" src="assets/images/arrow.png" alt="" />
+        <span>Get Nutrients and Seeds</span>
       </div>
       <div class="works-card">
-        <img class="outline" src="assets//images/outline.png" alt="">
-        <img class="middle-img" src="assets/images/middle-3.png" alt="">
-        <img class="number" src="assets/images/number-3.png" alt="">
-        <img class="arrow" src="assets/images/arrow.png" alt="">
+        <img class="outline" src="assets//images/outline.png" alt="" />
+        <img class="middle-img" src="assets/images/middle-3.png" alt="" />
+        <img class="number" src="assets/images/number-3.png" alt="" />
+        <img class="arrow" src="assets/images/arrow.png" alt="" />
+        <span>Add Water and Solution</span>
       </div>
       <div class="works-card">
-        <img class="outline" src="assets//images/outline.png" alt="">
-        <img class="middle-img" src="assets/images/middle-4.png" alt="">
-        <img class="number" src="assets/images/number-4.png" alt="">
-        <img class="arrow" src="assets/images/arrow.png" alt="">
+        <img class="outline" src="assets//images/outline.png" alt="" />
+        <img class="middle-img" src="assets/images/middle-4.png" alt="" />
+        <img class="number" src="assets/images/number-4.png" alt="" />
+        <img class="arrow" src="assets/images/arrow.png" alt="" />
+        <span>Plant Seeds</span>
       </div>
       <div class="works-card">
-        <img class="outline" src="assets//images/outline.png" alt="">
-        <img class="middle-img" src="assets/images/middle-5.png" alt="">
-        <img class="number" src="assets/images/number-5.png" alt="">
-        <img class="arrow" src="assets/images/arrow.png" alt="">
+        <img class="outline" src="assets//images/outline.png" alt="" />
+        <img class="middle-img" src="assets/images/middle-5.png" alt="" />
+        <img class="number" src="assets/images/number-5.png" alt="" />
+        <img class="arrow" src="assets/images/arrow.png" alt="" />
+        <span>Plant Seeds</span>
       </div>
       <div class="works-card">
-        <img class="outline" src="assets//images/outline-2.png" alt="">
-        <img class="middle-img" src="assets/images/middle-6.png" alt="">
-        <img class="number" src="assets/images/number-6.png" alt="">
-
+        <img class="outline" src="assets//images/outline-2.png" alt="" />
+        <img class="middle-img" src="assets/images/middle-6.png" alt="" />
+        <img class="number" src="assets/images/number-6.png" alt="" />
+        <span>Harvest</span>
       </div>
-
+    </div>
+  </section>
+  <section class="faq">
+    <div class="page-wrapper">
+      <div class="faq-title">Frequently Asked Questions</div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              How to Grow More in Less Space With Rocco Indoor Hydroponic Garden?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our non-GMO, pesticide-free plant portfolio includes greens, herbs, fruits, vegetables, and flowers.
+                Grow everything indoor from cherry tomatoes, strawberries, peppers, and kale to herbs such as basil
+                and
+                chives, plus flowers like snapdragons, marigolds, and petunias. We add new, exciting plant varieties
+                to
+                our portfolio all the time, so there’s always something new to discover.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What Kind of Plants Can | Grow with a Rocco Indoor Hydroponic System?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our non-GMO, pesticide-free plant portfolio includes greens, herbs, fruits, vegetables, and flowers.
+                Grow everything indoor from cherry tomatoes, strawberries, peppers, and kale to herbs such as basil
+                and
+                chives, plus flowers like snapdragons, marigolds, and petunias. We add new, exciting plant varieties
+                to
+                our portfolio all the time, so there’s always something new to discover.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Would | Be Able to Harvest my Indoor Garden During the Whole Year?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our non-GMO, pesticide-free plant portfolio includes greens, herbs, fruits, vegetables, and flowers.
+                Grow everything indoor from cherry tomatoes, strawberries, peppers, and kale to herbs such as basil
+                and
+                chives, plus flowers like snapdragons, marigolds, and petunias. We add new, exciting plant varieties
+                to
+                our portfolio all the time, so there’s always something new to discover.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Is Rocco Indoor Garden System Better For The Environment?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our non-GMO, pesticide-free plant portfolio includes greens, herbs, fruits, vegetables, and flowers.
+                Grow everything indoor from cherry tomatoes, strawberries, peppers, and kale to herbs such as basil
+                and
+                chives, plus flowers like snapdragons, marigolds, and petunias. We add new, exciting plant varieties
+                to
+                our portfolio all the time, so there’s always something new to discover.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Is Rocco Indoor Garden System Better For The Environment?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our non-GMO, pesticide-free plant portfolio includes greens, herbs, fruits, vegetables, and flowers.
+                Grow everything indoor from cherry tomatoes, strawberries, peppers, and kale to herbs such as basil
+                and
+                chives, plus flowers like snapdragons, marigolds, and petunias. We add new, exciting plant varieties
+                to
+                our portfolio all the time, so there’s always something new to discover.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="newsletter">
     <div class="page-wrapper">
       <div>
         <h2>Subscribe Our Newsetter</h2>
-        <p>Enter your email below to be the first to know about new collections and product launches.</p>
+        <p>
+          Enter your email below to be the first to know about new collections
+          and product launches.
+        </p>
       </div>
       <div>
-        <input class="input-email" type="email" name="" id="" placeholder="Your email address">
-        <button class="primary-btn subscribe-btn">Subscribe
+        <input class="input-email" type="email" name="" id="" placeholder="Your email address" />
+        <button class="primary-btn subscribe-btn">
+          Subscribe
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
             <path d="M11.3333 5.83325L15.5 9.99992M15.5 9.99992L11.3333 14.1666M15.5 9.99992H5.5" stroke="white"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg></button>
+          </svg>
+        </button>
       </div>
     </div>
   </section>
   <footer class="footer">
     <div class="page-wrapper footer-top">
       <div class="footer-logo-area">
-        <img src="assets/images/footer-logo.png" alt="">
-        <p>Enter your email below to be the first to know about new collections and product launches.</p>
+        <img src="assets/images/footer-logo.png" alt="" />
+        <p>
+          Enter your email below to be the first to know about new collections
+          and product launches.
+        </p>
       </div>
       <div class="company">
         <h2>Company</h2>
@@ -295,15 +709,12 @@
       <div class="useful-link">
         <h2>Useful link</h2>
         <ul>
-          <li><a href="">Privacy Policy
-            </a></li>
+          <li><a href="">Privacy Policy </a></li>
           <li><a href="">Returns & Exchanges</a></li>
-
         </ul>
         <h2 class="mt-35">Useful link</h2>
         <ul>
-          <li><a href="">123-456-7890
-            </a></li>
+          <li><a href="">123-456-7890 </a></li>
           <li>
             <a href="mailto:rocco@gardens.com">rocco@gardens.com</a>
           </li>
@@ -313,10 +724,10 @@
     <div class="line-2"></div>
     <div class="page-wrapper">
       <div class="copyright">
-        <p>© 2023 Nexux Gardens - All Rights Reserved </p>
+        <p>© 2023 Nexux Gardens - All Rights Reserved</p>
         <div class="social">
-          <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-              fill="none">
+          <div class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <g clip-path="url(#clip0_1_398)">
                 <path
                   d="M9.237 15.9995V8.70169H11.6856L12.053 5.85676H9.237V4.04069C9.237 3.21727 9.46472 2.65612 10.6468 2.65612L12.1521 2.6555V0.110896C11.8918 0.077068 10.9982 -0.000488281 9.95822 -0.000488281C7.78654 -0.000488281 6.29977 1.32508 6.29977 3.75893V5.85676H3.84375V8.70169H6.29977V15.9995H9.237Z"
@@ -327,13 +738,14 @@
                   <rect width="16" height="16" fill="white" transform="translate(0 -0.000488281)" />
                 </clipPath>
               </defs>
-            </svg></div>
+            </svg>
+          </div>
           <div class="social-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-              viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <style>
                 svg {
-                  fill: #fafafa
+                  fill: #fafafa;
                 }
               </style>
               <path
@@ -348,11 +760,11 @@
             </svg>
           </div>
           <div class="social-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-              viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <style>
                 svg {
-                  fill: #ffffff
+                  fill: #ffffff;
                 }
               </style>
               <path
@@ -363,6 +775,13 @@
       </div>
     </div>
   </footer>
+
+
+
+  <!-- Bootstrup Cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
